@@ -1,4 +1,4 @@
-# Truth Tag : AI Server
+# Truth Tag : OCR Server
 > _OCR model을 서빙하는 OCR Server의 코드를 관리한 Repository_
 
 <!-- <img width="1456" alt="image" src="https://github.com/dev-munchkins/truthtag-ai-server/assets/68195241/678d1058-fad2-4a55-b123-be373f7af8af"> -->
