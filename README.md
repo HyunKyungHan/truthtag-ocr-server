@@ -4,6 +4,8 @@
 <!-- <img width="1456" alt="image" src="https://github.com/dev-munchkins/truthtag-ai-server/assets/68195241/678d1058-fad2-4a55-b123-be373f7af8af"> -->
 ![alt text](image.png)
 
+## OCR Pipeline
+![alt text](<Group 39.png>)
 
 ## Tech Stack
 #### Model Serving
