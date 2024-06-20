@@ -60,7 +60,9 @@ python3 app.py
   - [로컬 환경](http://localhost:8000/docs)
   - [배포 환경](https://ai.truthtag.site/docs)
 
-<b>Request 예시<b>: AWS S3 bucket에 저장되어 있는 이미지 url을 입력합니다. <br>
+- <b>Request 예시<b>: AWS S3 bucket에 저장되어 있는 이미지 url을 입력합니다. <br>
 ![alt text](image-1.png)
-<b>Response 예시<b>: 상품 이름과 브랜드가 인식된 결과를 반환합니다. <br>
+<br>
+
+- <b>Response 예시<b>: 상품 이름과 브랜드가 인식된 결과를 반환합니다. <br>
 ![alt text](image-2.png)
