@@ -1,7 +1,8 @@
 # Truth Tag : AI Server
-> _AI model을 서빙하는 AI Server의 코드를 관리한 Repository_
+> _OCR model을 서빙하는 OCR Server의 코드를 관리한 Repository_
 
-<img width="1456" alt="image" src="https://github.com/dev-munchkins/truthtag-ai-server/assets/68195241/678d1058-fad2-4a55-b123-be373f7af8af">
+<!-- <img width="1456" alt="image" src="https://github.com/dev-munchkins/truthtag-ai-server/assets/68195241/678d1058-fad2-4a55-b123-be373f7af8af"> -->
+![alt text](image.png)
 
 
 ## Tech Stack
@@ -10,23 +11,25 @@
 - ```FastAPI 0.111.0```
 
 #### AI (OCR)
-
-#### AI (Chatbot)
-
+- ```easyocr==1.7.1``` 기반 finetuning한 모델
+- ```torch==2.3.0```
+- ```torchvision>=0.9.0```
+- ```rapidfuzz```
+- ```ultralytics==8.2.36```
 
 ## How to...
-> ⚠️ 해당 프로젝트는 GPU가 있는 환경에서만 실행이 가능합니다!
+> ⚠️ 해당 프로젝트는 GPU가 있는 환경에서 실행해야 빠른 결과를 얻을 수 있습니다.
 
 ### Install
 - 터미널에 접속하여 다음 명령어를 실행한다.
 ```bash
-git clone https://github.com/dev-munchkins/truthtag-ai-server.git
+git clone https://github.com/dev-munchkins/truthtag-ocr-server.git
 ```
 
 ### Build
 1. 터미널에 다음 명령어를 실행하여 다운로드 받은 프로젝트 내부로 이동한다.
 ```bash
-cd truthtag-ai-server
+cd truthtag-ocr-server
 ```
 
 2. 터미널에 다음 명령어를 실행하여 가상 환경을 생성한다.
