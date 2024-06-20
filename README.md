@@ -1,8 +1,9 @@
 # Truth Tag : OCR Server
 > _OCR model을 서빙하는 OCR Server의 코드를 관리한 Repository_
 
-<!-- <img width="1456" alt="image" src="https://github.com/dev-munchkins/truthtag-ai-server/assets/68195241/678d1058-fad2-4a55-b123-be373f7af8af"> -->
-![alt text](image.png)
+<!-- <img width="1456" alt="image" src="https://github.com/dev-munchkins/truthtag-ai-server/assets/68195241/678d1058-fad2-4a55-b123-be373f7af8af">
+![alt text](image.png) -->
+![alt text](image-3.png)
 
 ## OCR Pipeline
 ![alt text](<Group 39.png>)
@@ -58,3 +59,8 @@ python3 app.py
 - 환경에 따라 다음 링크를 클릭하여 Swagger 문서로 접속하면 테스트가 가능하다.
   - [로컬 환경](http://localhost:8000/docs)
   - [배포 환경](https://ai.truthtag.site/docs)
+
+<b>Request 예시<b>: AWS S3 bucket에 저장되어 있는 이미지 url을 입력합니다. <br>
+![alt text](image-1.png)
+<b>Response 예시<b>: 상품 이름과 브랜드가 인식된 결과를 반환합니다. <br>
+![alt text](image-2.png)
